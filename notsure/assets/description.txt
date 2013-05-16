@@ -1,0 +1,37 @@
+Thank you for choosing LittlesparkVT, http://www.littlesparkvt.com. 
+If you have any questions please feel free to email us at littlesparkvt@gmail.com .
+We make tools to make developers lives easier.
+
+LittlesparkVT's pricing tables are designed and developed for ease of use. Just copy and paste the code into your bootstrap based site and you're ready to roll. 
+
+The default set of pricing tables is 5 but you can use from 2- 12 columns for your tables.
+
+Using CSS3 we gave the prices a great transition when you hover. This effect gracefully degrades for older out of date browsers.
+
+Just add your own CSS colors to customize these pricing tables for your own projects!
+
+Code
+
+Compatible with Bootstrap 2.0.x
+Uses Bootstrap 2.0.1
+Written in valid HTML
+CSS3 transitions and transforms
+
+Browsers
+
+Firefox 4+
+Latest Chrome
+Latest Safari
+Internet Explorer 7+
+Opera 11
+
+Assets
+
+Fonts:
+
+Google Web font - Open Sans
+http://www.google.com/webfonts/specimen/Open+Sans
+
+Custom CSS:
+This file lets you easily change the colors of the pricing tables.
+css/custom.css

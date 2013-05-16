@@ -1,0 +1,219 @@
+/* Default Colours */
+.pricing .plan h3, .pricing .plan span, .showcase h2, .table-comparison th  { 
+  text-shadow: 0 -1px 0 #D1D1D1;
+  background-color: #D1D1D1;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#D1D1D1), to(#ABABAB));
+  background-image: -webkit-linear-gradient(top, #D1D1D1, #ABABAB);
+  background-image: -o-linear-gradient(top, #D1D1D1, #ABABAB);
+  background-image: linear-gradient(to bottom, #D1D1D1, #ABABAB);
+  background-image: -moz-linear-gradient(top, #D1D1D1, #ABABAB);
+  border-color: #ABABAB #ABABAB #A1A1A1;
+  background-repeat: repeat-x;
+}
+.showcase .product { border: 1px solid #ABABAB;  border-radius: 4px; margin-bottom: 15px; }
+/* Example colour scheme.... 
+
+1. Pick a light, medium and dark shade. 
+2. Copy/paste the code below - change "example" to your theme name
+3. Insert your chosen shades
+4. Profit!?!?!
+
+.pricing-example .plan-primary h3, .pricing-example .plan-primary span, .showcase-example .product-primary h2 { color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #{MEDIUM};
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#{LIGHT}), to(#{MEDIUM}));
+  background-image: -webkit-linear-gradient(top, #{LIGHT}, #{MEDIUM});
+  background-image: -o-linear-gradient(top, #{LIGHT}, #{MEDIUM});
+  background-image: linear-gradient(to bottom, #{LIGHT}, #{MEDIUM});
+  background-image: -moz-linear-gradient(top, #{LIGHT}, #{MEDIUM});
+  background-repeat: repeat-x;
+  border-color: #{MEDIUM} #{MEDIUM} #{DARK};
+}
+.table-example th.primary { color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #{MEDIUM};
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#{LIGHT}), to(#{MEDIUM}));
+  background-image: -webkit-linear-gradient(top, #{LIGHT}, #{MEDIUM});
+  background-image: -o-linear-gradient(top, #{LIGHT}, #{MEDIUM});
+  background-image: linear-gradient(to bottom, #{LIGHT}, #{MEDIUM});
+  background-image: -moz-linear-gradient(top, #{LIGHT}, #{MEDIUM});
+  background-repeat: repeat-x;
+  border-color: #{DARK};
+}
+.table-example .primary, .table-example .primary+td, .table-example .primary+th {  
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #{DARK}; 
+}
+.showcase-example .product-primary { border-color: #{MEDIUM};  }
+
+*/
+
+/* Yellow Colour Scheme */
+.pricing-yellow .plan-primary h3, .pricing-yellow .plan-primary span, .showcase-yellow .product-primary h2 { color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #faa732;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
+  background-image: -webkit-linear-gradient(top, #fbb450, #f89406);
+  background-image: -o-linear-gradient(top, #fbb450, #f89406);
+  background-image: linear-gradient(to bottom, #fbb450, #f89406);
+  background-image: -moz-linear-gradient(top, #fbb450, #f89406);
+  background-repeat: repeat-x;
+  border-color: #f89406 #f89406 #ad6704;
+}
+.table-yellow th.primary { color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #faa732;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
+  background-image: -webkit-linear-gradient(top, #fbb450, #f89406);
+  background-image: -o-linear-gradient(top, #fbb450, #f89406);
+  background-image: linear-gradient(to bottom, #fbb450, #f89406);
+  background-image: -moz-linear-gradient(top, #fbb450, #f89406);
+  background-repeat: repeat-x;
+  border-color: #ad6704;
+}
+.table-yellow .primary, .table-yellow .primary+td, .table-yellow .primary+th {  
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #ad6704; 
+}
+.showcase-yellow .product-primary { border-color: #f89406;  }
+
+/* Purple Colour Scheme */
+.pricing-purple .plan-primary h3, .pricing-purple .plan-primary span, .showcase-purple .product-primary h2 { color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #8B52D1;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#AA7BE3), to(#8B52D1));
+  background-image: -webkit-linear-gradient(top, #AA7BE3, #8B52D1);
+  background-image: -o-linear-gradient(top, #AA7BE3, #8B52D1);
+  background-image: linear-gradient(to bottom, #AA7BE3, #8B52D1);
+  background-image: -moz-linear-gradient(top, #AA7BE3, #8B52D1);
+  background-repeat: repeat-x;
+  border-color: #8B52D1 #8B52D1 #5E11BD;
+}
+.table-purple th.primary { color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #faa732;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#8B52D1));
+  background-image: -webkit-linear-gradient(top, #AA7BE3, #8B52D1);
+  background-image: -o-linear-gradient(top, #AA7BE3, #8B52D1);
+  background-image: linear-gradient(to bottom, #AA7BE3, #8B52D1);
+  background-image: -moz-linear-gradient(top, #AA7BE3, #8B52D1);
+  background-repeat: repeat-x;
+  border-color: #5E11BD;
+}
+.table-purple .primary, .table-purple .primary+td, .table-purple .primary+th {  
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #5E11BD; 
+}
+.showcase-purple .product-primary { border-color: #8B52D1;  }
+
+/* Red Colour Scheme */
+.pricing-red .plan-primary h3, .pricing-red .plan-primary span, .showcase-red .product-primary h2  { color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #EE5F5B;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EE5F5B), to(#BD362F));
+  background-image: -webkit-linear-gradient(top, #EE5F5B, #BD362F);
+  background-image: -o-linear-gradient(top, #EE5F5B, #BD362F);
+  background-image: linear-gradient(to bottom, #EE5F5B, #BD362F);
+  background-image: -moz-linear-gradient(top, #EE5F5B, #BD362F);
+  background-repeat: repeat-x;
+  border-color: #BD362F #BD362F #802420;
+}
+.table-red th.primary  { color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #EE5F5B;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EE5F5B), to(#BD362F));
+  background-image: -webkit-linear-gradient(top, #EE5F5B, #BD362F);
+  background-image: -o-linear-gradient(top, #EE5F5B, #BD362F);
+  background-image: linear-gradient(to bottom, #EE5F5B, #BD362F);
+  background-image: -moz-linear-gradient(top, #EE5F5B, #BD362F);
+  background-repeat: repeat-x;
+  border-color: #802420; 
+}
+.table-red .primary, .table-red .primary+td, .table-red .primary+th {  
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #802420; 
+}
+.showcase-red .product-primary { border-color: #BD362F;  }
+/* Green Colour Scheme */
+.pricing-green .plan-primary h3, .pricing-green .plan-primary span, .showcase-green .product-primary h2  { color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #62C462;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62C462), to(#51A351));
+  background-image: -webkit-linear-gradient(top, #62C462, #51A351);
+  background-image: -o-linear-gradient(top, #62C462, #51A351);
+  background-image: linear-gradient(to bottom, #62C462, #51A351);
+  background-image: -moz-linear-gradient(top, #62C462, #51A351);
+  background-repeat: repeat-x;
+  border-color: #51A351 #51A351 #387038;
+}
+.table-green th.primary {color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #62C462;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62C462), to(#51A351));
+  background-image: -webkit-linear-gradient(top, #62C462, #51A351);
+  background-image: -o-linear-gradient(top, #62C462, #51A351);
+  background-image: linear-gradient(to bottom, #62C462, #51A351);
+  background-image: -moz-linear-gradient(top, #62C462, #51A351);
+  background-repeat: repeat-x;
+  border-color: #387038; 
+}
+.table-green .primary, .table-green .primary+td, .table-green .primary+th {  
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #387038; 
+}
+.showcase-green .product-primary { border-color: #51A351;  }
+/* Blue Colour Scheme */
+.pricing-blue .plan-primary h3, .pricing-blue .plan-primary span, .showcase-blue .product-primary h2 { color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #08C;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08C), to(#04C));
+  background-image: -webkit-linear-gradient(top, #08C, #04C);
+  background-image: -o-linear-gradient(top, #08C, #04C);
+  background-image: linear-gradient(to bottom, #08C, #04C);
+  background-image: -moz-linear-gradient(top, #08C, #04C);
+  background-repeat: repeat-x;
+  border-color: #04C #04C #002A80;
+}
+.table-blue th.primary  {  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #08C;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08C), to(#04C));
+  background-image: -webkit-linear-gradient(top, #08C, #04C);
+  background-image: -o-linear-gradient(top, #08C, #04C);
+  background-image: linear-gradient(to bottom, #08C, #04C);
+  background-image: -moz-linear-gradient(top, #08C, #04C);
+  background-repeat: repeat-x; 
+  border-color: #002A80;
+}
+.table-blue .primary, .table-blue .primary+td, .table-blue .primary+th {  
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #002A80;
+}
+.showcase-blue .product-primary { border-color: #04C;  }
+
+/* Standard styling for plan */
+.pricing .plan { padding: 0px; text-align: center; }
+.plan span, h3 { display: block;  border: 1px solid #ABABAB; border-top: none; line-height: 1.8em; margin: 0px; }
+.plan h3 { font-size: 1.2em; border-radius: 4px 4px 0 0;}
+.plan span { font-size: 4em; }
+.plan ul { margin: 0px;  list-style: none; padding: 15px; background-color: #fff; color: #333; border-left: 1px solid #ABABAB; border-right: 1px solid #ABABAB; }
+.plan li { padding-bottom: 10px; padding-top: 10px; border-bottom: 1px dotted #ABABAB; }
+.plan div { border-radius: 0 0 4px 4px; border: 1px solid #ABABAB; border-top: none; }
+.plan a { margin: auto; margin-bottom: 4px; padding: 10px;  }
+
+/* Standard Style for Features Table */
+.table-comparison { text-align: center; }
+.table-comparison, .table-comparison td, .table-comparison th { border-color:  #ABABAB;}
+.table-comparison tr th { width: 20%; padding: 15px; }
+.table-comparison tr td { font-size: 1.5em;}
+.table-comparison tr td:first-child { text-align: left; font-size: 1em; padding: 15px;}
+.table-comparison .icon-ok, .table-comparison .icon-ok-circle {color: #51A351;}
+.table-comparison .icon-remove, .table-comparison .icon-remove-circle {color: #BD362F;}
+.table-comparison .icon-star { color: #f89406 }
+.table-comparison .icon-star-half { color: #fbb450 }
+.table-comparison .icon-star-empty { color: #ABABAB; }
+.table-comparison td a { margin-bottom: 5px; }
+
+/* Product Showcase */
+.showcase h2 { margin: 0px; font-size: 1.5em;  padding-left: 15px; }
+.showcase .product div { padding: 25px; }
