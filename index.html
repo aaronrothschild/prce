@@ -19,9 +19,13 @@
 	
 <script src="js/libs/jquery-1.7.2.min.js"></script>
 <script src="js/libs/bootstrap/tooltip.js"></script>
-<script>
-     $('#').tooltip()   
-	</script>
+ <script type='text/javascript'>
+     $(document).ready(function () {
+     if ($("[rel=tooltip]").length) {
+     $("[rel=tooltip]").tooltip();
+     }
+   });
+  </script>
 
 
 </head>
@@ -137,7 +141,7 @@
           
           <tr>
           <td>Employee Advocates + Nominations <i class="icon-info-sign"></i> <br></td>
-          <td>$<br></td>
+          <td>$<a href="#" rel="tooltip" title="A nice tooltip" class="tooltip-test">test</a><br> <br></td>
           <td><i class="icon-ok"></i><br></td>
           <td class="primary"><i class="icon-ok"></i><br></td>
           </tr>
